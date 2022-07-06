@@ -65,8 +65,13 @@ body{
     background-color:antiquewhite;
   }
 #taka_box{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
     width: 35%;
     height: 30px;
+    text-align: center;
+    
 }
 .text-style{
     color: #404040;
@@ -88,6 +93,7 @@ body{
     height: 20%;
     margin-left: 7%;
     padding: 2%;
+    border-radius: 2%;
     
 }
 .box1{
@@ -110,4 +116,69 @@ body{
 #img1{
     height: 70px;
     
+}
+
+/*sectiom 5*/
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.mail-box{
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    border-radius: 2%;
+    width: 50%;
+    height: 200px;
+    background-color: #FFDAB9;
+}
+.mail-form{
+    padding-top: 13%;
+    text-align: center;
+}
+
+.form{
+    width: 70%;
+    height: 200px;
+    background-color: #FFDAB9;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    padding: 20px 32px;
+    background-color: gray;
+    border: none;
+    outline: none;
+}
+
+.subscribe_button{
+    border: none;
+    background-color: tomato;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+footer{
+    padding-top:30px;
+    background-color: rgb(3, 3, 32);
+    color:white;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+footer h1{
+    color:tomato;
+    font-family: 'Lobster', cursive;
 }
