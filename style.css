@@ -86,8 +86,28 @@ body{
 .box{
     width: 20%;
     height: 20%;
-    background-color: aqua;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 7%;
     padding: 2%;
+    
+}
+.box1{
+    background-color: #FFDAB9;
+}
+.box2{
+    background-color: #ADD8E6;
+}
+.box3{
+    background-color: #D8BFD8;
+}
+#img3{
+    height: 70px;
+    
+}
+#img2{
+    height: 70px;
+    
+}
+#img1{
+    height: 70px;
+    
 }
